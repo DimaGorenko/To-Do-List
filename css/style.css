@@ -1,0 +1,41 @@
+body {
+  background: -o-linear-gradient(45deg, rgb(37, 73, 65), rgb(83, 82, 182));
+  background: linear-gradient(45deg, rgb(37, 73, 65), rgb(83, 82, 182));
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+
+main {
+  padding: 50px 0;
+}
+
+h1 {
+  background-image: -webkit-gradient(linear, left top, right top, from(#ffffff), color-stop(#96b0fb), to(#00fff5));
+  background-image: -o-linear-gradient(left, #ffffff, #96b0fb, #00fff5);
+  background-image: linear-gradient(90deg, #ffffff, #96b0fb, #00fff5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.taskWrapper {
+  position: relative;
+  background: -o-linear-gradient(45deg, rgb(37, 73, 65), rgb(83, 82, 182));
+  background: linear-gradient(45deg, rgb(37, 73, 65), rgb(83, 82, 182));
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 14px 1px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 14px 1px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.taskHeading {
+  font-size: 20px;
+  margin-bottom: 15px;
+  overflow: hidden;
+}
+
+.taskDescription {
+  font-size: 16px;
+  overflow: hidden;
+}
